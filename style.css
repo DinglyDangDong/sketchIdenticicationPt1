@@ -1,0 +1,20 @@
+canvas {
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgb(223, 223, 223);
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes fade {
+    30%{
+        box-shadow: 10px 10px 20px rgb(177, 177, 177);
+    }
+    70%{
+        box-shadow: 10px 10px 20px rgb(239, 239, 239);
+    }
+    70%{
+        box-shadow: 10px 20px rgb(223, 223, 223);
+    }
+
+}
